@@ -1,6 +1,5 @@
 import { test, chromium,Page, expect } from "@playwright/test";
 import fs from "fs";
-test.describe.configure({ mode: 'serial' });
 
 let page: Page;
 const FLOW_NAME = "Allocation";
